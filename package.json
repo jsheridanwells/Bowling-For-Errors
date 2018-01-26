@@ -1,0 +1,24 @@
+{
+  "name": "all-tests-pass-challenges",
+  "version": "1.0.0",
+  "description": "[From this javascript challenge](http://jsbin.com/vivuziz/edit\\?js,console)",
+  "main": "bowling.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsheridanwells/Bowling-For-Errors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsheridanwells/Bowling-For-Errors/issues"
+  },
+  "homepage": "https://github.com/jsheridanwells/Bowling-For-Errors#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0"
+  }
+}
